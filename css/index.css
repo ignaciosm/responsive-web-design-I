@@ -1,4 +1,14 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
