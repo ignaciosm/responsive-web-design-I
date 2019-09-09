@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	max-width: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -200,14 +201,58 @@ footer {
   font-size: 14px;
 }
 
-/*Below this goes my Responsive CSS*/
+/********** Below this goes my Responsive CSS **********/
 
+/********* DESKTOP *********/
+
+@media only screen and (min-width: 800px) {
+	
+	.mobile-logo {
+		display: none;
+	}  
+}
+
+
+/********* TABLET *********/
 
 @media only screen and (max-width: 800px) {
-  body {
-    background-color: lightblue;
-  }
+
+	header {
+	    flex-direction: column;
+	}
+
+	.desktop-logo {
+		display: none;
+	}  
+
+	.mobile-logo {
+		padding: 40px;
+	}  
+
+	.cta {
+	    justify-content: center;
+	    margin-top: 40px;
+	}
+
+	.cta img {
+	    display: none; 
+	}
+
+	.cta .cta-text {
+	    text-align: center;
+	}
+
+	.main-content {
+    margin-top: 40px;
+	}
 }
+
+
+
+
+/********* SMARTPHONE *********/
+
+
 
 @media only screen and (max-width: 500px) {
   body {
