@@ -255,9 +255,6 @@ footer {
 
 
 @media only screen and (max-width: 500px) {
-  body {
-    background-color: lightblue;
-  }
 
 	header nav {
 	  width: 100%;
@@ -278,14 +275,29 @@ footer {
 	    flex-direction: column;
 	}
 
-.main-content .top-content .text-content {
-    width: 100%;
-    padding-bottom: 40px;
-}
+	.main-content .top-content .text-content {
+	    width: 100%;
+	    padding-bottom: 40px;
+	}
 
-.main-content .middle-img {
-    margin-top: 10px;
-}
+	.main-content .middle-img {
+	    margin-top: 10px;
+	}
+
+	.main-content .bottom-content {
+	    justify-content: flex-start;
+	    flex-direction: column;
+	}
+
+	.main-content .bottom-content .text-content {
+	    width: 100%;
+	    padding-bottom: 40px;
+	}
+
+	.contact {
+	    margin-top: 10px;
+
+	}	
 
 }
 
