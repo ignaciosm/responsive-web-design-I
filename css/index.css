@@ -206,7 +206,7 @@ footer {
 /********* DESKTOP *********/
 
 @media only screen and (min-width: 800px) {
-	
+
 	.mobile-logo {
 		display: none;
 	}  
@@ -256,7 +256,25 @@ footer {
 
 @media only screen and (max-width: 500px) {
   body {
-    background-color: blue;
+    background-color: lightblue;
   }
+
+	header nav {
+	  width: 100%;
+	  justify-content: center;
+	  flex-direction: column;
+	  text-align: center;
+	  line-height: 3;
+		border-top: 1px solid black;
+	}
+
+	header nav a {
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
+	}	
+
+
+
+
 }
 
