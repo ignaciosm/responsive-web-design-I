@@ -273,8 +273,19 @@ footer {
     font-size: 1.3rem;
 	}	
 
+	.main-content .top-content {
+	    justify-content: flex-start;
+	    flex-direction: column;
+	}
 
+.main-content .top-content .text-content {
+    width: 100%;
+    padding-bottom: 40px;
+}
 
+.main-content .middle-img {
+    margin-top: 10px;
+}
 
 }
 
